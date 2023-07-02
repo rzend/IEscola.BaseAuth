@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-API", "1-API", "{75DADB5C-3F8D-45CD-8E1B-27324296CE52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{0C68B93B-E1B0-4460-8239-E8AC504F21FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{A3C13631-C220-41CF-BCB1-636B893CF74E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{5E691C70-E3B8-482F-9B36-7522237E8ED5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-CrossCuting", "5-CrossCuting", "{2809849F-E8E0-4A47-B86B-3817BDFC81A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-Tests", "6-Tests", "{A18F547B-086C-46F6-B4E0-6FFB40436804}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEscola.Api", "app\IEscola.Api\IEscola.Api.csproj", "{101404FD-6F29-48AA-AD97-DAE1573E2CCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEscola.CrossCutting", "app\IEscola.CrossCutting\IEscola.CrossCutting.csproj", "{EB26514C-9EA9-4DA1-AD5A-C8F03A9EAC47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEscola.Domain", "app\IEscola.Domain\IEscola.Domain.csproj", "{1363AF6F-822B-47CA-BBF2-AFF89CB5D707}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEscola.Application", "app\IEscola.Application\IEscola.Application.csproj", "{4D0688C4-C4F6-4434-B6F9-599315686C8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEscola.Auth", "app\IEscola.Auth\IEscola.Auth.csproj", "{01741997-0587-49DD-B3FA-0C575D9F4A06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Core", "0-Core", "{C98D10D8-FCE0-4F07-A73A-DD17FF50BD60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEscola.Core", "app\IEscola.Core\IEscola.Core.csproj", "{72741C76-AD10-47AD-9833-3F50FE35919F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{101404FD-6F29-48AA-AD97-DAE1573E2CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101404FD-6F29-48AA-AD97-DAE1573E2CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101404FD-6F29-48AA-AD97-DAE1573E2CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101404FD-6F29-48AA-AD97-DAE1573E2CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB26514C-9EA9-4DA1-AD5A-C8F03A9EAC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB26514C-9EA9-4DA1-AD5A-C8F03A9EAC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB26514C-9EA9-4DA1-AD5A-C8F03A9EAC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB26514C-9EA9-4DA1-AD5A-C8F03A9EAC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1363AF6F-822B-47CA-BBF2-AFF89CB5D707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1363AF6F-822B-47CA-BBF2-AFF89CB5D707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1363AF6F-822B-47CA-BBF2-AFF89CB5D707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1363AF6F-822B-47CA-BBF2-AFF89CB5D707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0688C4-C4F6-4434-B6F9-599315686C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0688C4-C4F6-4434-B6F9-599315686C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0688C4-C4F6-4434-B6F9-599315686C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0688C4-C4F6-4434-B6F9-599315686C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01741997-0587-49DD-B3FA-0C575D9F4A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01741997-0587-49DD-B3FA-0C575D9F4A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01741997-0587-49DD-B3FA-0C575D9F4A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01741997-0587-49DD-B3FA-0C575D9F4A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72741C76-AD10-47AD-9833-3F50FE35919F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72741C76-AD10-47AD-9833-3F50FE35919F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72741C76-AD10-47AD-9833-3F50FE35919F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72741C76-AD10-47AD-9833-3F50FE35919F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{101404FD-6F29-48AA-AD97-DAE1573E2CCC} = {75DADB5C-3F8D-45CD-8E1B-27324296CE52}
+		{EB26514C-9EA9-4DA1-AD5A-C8F03A9EAC47} = {2809849F-E8E0-4A47-B86B-3817BDFC81A5}
+		{1363AF6F-822B-47CA-BBF2-AFF89CB5D707} = {A3C13631-C220-41CF-BCB1-636B893CF74E}
+		{4D0688C4-C4F6-4434-B6F9-599315686C8C} = {0C68B93B-E1B0-4460-8239-E8AC504F21FA}
+		{01741997-0587-49DD-B3FA-0C575D9F4A06} = {75DADB5C-3F8D-45CD-8E1B-27324296CE52}
+		{72741C76-AD10-47AD-9833-3F50FE35919F} = {C98D10D8-FCE0-4F07-A73A-DD17FF50BD60}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D1BD0B0-C022-45AE-903D-F79E7BA4FDD2}
+	EndGlobalSection
+EndGlobal
