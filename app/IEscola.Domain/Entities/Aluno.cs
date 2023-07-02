@@ -12,10 +12,9 @@ namespace IEscola.Domain.Entities
             NumeroMatricula = numeroMatricula;
         }
 
-        public string Nome { get; set; }
-
-        public DateTime DataNascimento { get; set; }
-
+        public string Nome { get; private set; }
+        public DateTime? DataNascimento { get; private set; }
         public int NumeroMatricula { get; set; }
+
     }
 }

@@ -16,6 +16,7 @@
     <ProjectReference Include="..\IEscola.Core\IEscola.Core.csproj" />
     <ProjectReference Include="..\IEscola.CrossCutting\IEscola.CrossCutting.csproj" />
     <ProjectReference Include="..\IEscola.Domain\IEscola.Domain.csproj" />
+    <ProjectReference Include="..\IEscola.Infra\IEscola.Infra.csproj" />
   </ItemGroup>
 
 

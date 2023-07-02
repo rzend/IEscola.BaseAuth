@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace IEscola.Domain.Entities
 {
@@ -18,6 +16,8 @@ namespace IEscola.Domain.Entities
         }
 
         public string Nome { get; set; }
+
         public string Descricao { get; set; }
+
     }
 }

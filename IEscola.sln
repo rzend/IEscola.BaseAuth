@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEscola.Auth", "app\IEscola
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Core", "0-Core", "{C98D10D8-FCE0-4F07-A73A-DD17FF50BD60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEscola.Core", "app\IEscola.Core\IEscola.Core.csproj", "{72741C76-AD10-47AD-9833-3F50FE35919F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEscola.Core", "app\IEscola.Core\IEscola.Core.csproj", "{72741C76-AD10-47AD-9833-3F50FE35919F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEscola.Infra", "app\IEscola.Infra\IEscola.Infra.csproj", "{334826A5-A230-4F71-9B25-E7EBC98797F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{72741C76-AD10-47AD-9833-3F50FE35919F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72741C76-AD10-47AD-9833-3F50FE35919F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72741C76-AD10-47AD-9833-3F50FE35919F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334826A5-A230-4F71-9B25-E7EBC98797F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334826A5-A230-4F71-9B25-E7EBC98797F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334826A5-A230-4F71-9B25-E7EBC98797F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334826A5-A230-4F71-9B25-E7EBC98797F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{4D0688C4-C4F6-4434-B6F9-599315686C8C} = {0C68B93B-E1B0-4460-8239-E8AC504F21FA}
 		{01741997-0587-49DD-B3FA-0C575D9F4A06} = {75DADB5C-3F8D-45CD-8E1B-27324296CE52}
 		{72741C76-AD10-47AD-9833-3F50FE35919F} = {C98D10D8-FCE0-4F07-A73A-DD17FF50BD60}
+		{334826A5-A230-4F71-9B25-E7EBC98797F2} = {5E691C70-E3B8-482F-9B36-7522237E8ED5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D1BD0B0-C022-45AE-903D-F79E7BA4FDD2}
